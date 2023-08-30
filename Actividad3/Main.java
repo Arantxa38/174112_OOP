@@ -5,7 +5,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in); // Create a single Scanner object
+        Scanner sc = new Scanner(System.in); 
 
         while (true) {
             System.out.println("Ingrese que quiere hacer: ");
@@ -29,7 +29,6 @@ public class Main {
                     Cuadrado square = new Cuadrado(lado);
 
                     switch (accion1) {
-                        // Your cases for Cuadrado calculations
                         case 1:
                             System.out.println("La diagonal es: " + square.calcularDiagonal());
                             break;
