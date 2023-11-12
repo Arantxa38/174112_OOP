@@ -145,7 +145,7 @@ public class MyMelody {
         drawSquareGrid(PIXEL_SIZE, Color.black);
         // Guardamos la imagen en formato JPG
         try {       
-            ImageIO.write(image, "jpg", new File("pixel_art.jpg"));
+            ImageIO.write(image, "jpg", new File("MyMelody.jpg"));
             System.out.println("EXITO !!!");
         } catch (Exception e) {
             e.printStackTrace();
